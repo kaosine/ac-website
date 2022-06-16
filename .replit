@@ -1,0 +1,2 @@
+language = "ruby"
+run = "bundle exec github-pages serve"
