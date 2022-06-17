@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    <title> {{ page.title }} | {{ site.title }} </title>
+    {% seo %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
     {% include header.html %}
     
     {{ content }}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
   </body>
 </html>

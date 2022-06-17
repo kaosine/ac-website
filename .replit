@@ -1,2 +1,2 @@
 language = "ruby"
-run = "bundle exec github-pages serve"
+run = "bundle exec github-pages build && bundle exec github-pages serve && cd ./_site && npx static-here"

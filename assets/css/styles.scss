@@ -1,0 +1,9 @@
+---
+# The main css/scss file. Do NOT put any actual css here. This is only to host the imports from _sass. Any actual code should go there.
+---
+
+ // prefer the newer use over import as import is being deprecated 
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.css";
+
+@import "main";
