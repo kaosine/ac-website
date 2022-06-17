@@ -1,5 +1,7 @@
 ---
 title: Why Atom?
+layout: docs
+permalink: /docs/getting-started/why-atom/
 ---
 ### Why Atom?
 

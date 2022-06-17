@@ -1,5 +1,6 @@
 ---
 title: Installing Atom
+permalink: /docs/getting-started/installing-atom/
 ---
 ### Installing Atom
 

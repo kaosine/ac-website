@@ -1,6 +1,7 @@
 ---
 title: Atom Basics
 layout: docs
+permalink: /docs/getting-started/atom-basics/
 ---
 ### Atom Basics
 

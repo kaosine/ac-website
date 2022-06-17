@@ -1,5 +1,7 @@
 ---
 title: Summary
+layout: default
+permalink: /docs/getting-started/summary/
 ---
 ### Summary
 
