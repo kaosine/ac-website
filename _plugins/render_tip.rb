@@ -7,4 +7,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('tip', Jekyll::RenderTipTag)
+Liquid::Template.register_tag('#tip', Jekyll::RenderTipTag)

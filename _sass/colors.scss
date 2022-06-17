@@ -1,0 +1,20 @@
+$pg-background: #584b4f;
+$link-color: #efeae1;
+$active-color:  #81c08b;
+
+$note-bg: rgb(255, 203, 17);
+
+header#page-header{
+  * a{
+    color: $link-color;
+  }
+  nav{
+    &.navbar, .navbar-menu.is-active{
+      background: $pg-background;
+    }
+  }
+}
+
+.note{
+  background: $note-bg;
+}

@@ -7,4 +7,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('note', Jekyll::RenderNoteTag)
+Liquid::Template.register_tag('#note', Jekyll::RenderNoteTag)

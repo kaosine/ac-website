@@ -21,19 +21,13 @@ You can find definitions for all of the various terms that we use throughout the
 
 In that welcome screen, we are introduced to probably the most important command in Atom, the Command Palette. If you press <kbd class="platform-mac">Cmd+Shift+P</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+P</kbd> while focused in an editor pane, the command palette will pop up.
 
-{{% note %}}
 
-Throughout the book, we will use shortcut keybindings like <kbd class="platform-mac">Cmd+Shift+P</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+P</kbd> to demonstrate how to run a command. These are the default keybindings for the platform that we detected you running.
-
-If you want to see a different platform than the one we detected, you may choose a different one by using the platform selector near the top of the page:
-
-![Platform Selector](../../images/platform-selector.png "Platform Selector")
-
-If the Platform Selector is not present, then the current page doesn't have any platform-specific content.
-
-If you have customized your Atom keymap, you can always see the keybinding you have mapped in the Command Palette or the Keybindings tab in the [Settings View](#settings-and-preferences).
-
-{{% endnote %}}
+{:.note}
+  Throughout the book, we will use shortcut keybindings like <kbd class="platform-mac">Cmd+Shift+P</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+P</kbd> to demonstrate how to run a command. These are the default keybindings for the platform that we detected you running.<br/>
+  If you want to see a different platform than the one we detected, you may choose a different one by using the platform selector near the top of the page:<br/>
+  ![Platform Selector](../../images/platform-selector.png "Platform Selector")<br/>
+  If the Platform Selector is not present, then the current page doesn't have any platform-specific content.<br/>
+  If you have customized your Atom keymap, you can always see the keybinding you have mapped in the Command Palette or the Keybindings tab in the [Settings View](#settings-and-preferences).
 
 This search-driven menu can do just about any major task that is possible in Atom. Instead of clicking around all the application menus to look for something, you can press <kbd class="platform-mac">Cmd+Shift+P</kbd><kbd class="platform-windows platform-linux">Ctrl+Shift+P</kbd> and search for the command.
 
@@ -177,7 +171,7 @@ The fuzzy finder uses the `core.ignoredNames`, `fuzzy-finder.ignoredNames` and `
 
 Both `core.ignoredNames` and `fuzzy-finder.ignoredNames` are interpreted as glob patterns as implemented by the [minimatch Node module](https://github.com/isaacs/minimatch).
 
-{{% tip %}}
+{{#tip}}
 
 **Configuration Setting Notation**
 
@@ -191,4 +185,4 @@ If you have a phrase you want to camel-case, follow these steps:
 
 So "Ignored Names" becomes "ignoredNames".
 
-{{% endtip %}}
+{{/tip}}
