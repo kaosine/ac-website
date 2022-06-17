@@ -17,7 +17,7 @@ title: Atom Community
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The new home for your favourite hackable text editor, now supported by the community.
-baseurl: "/ac-website" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: atom-community
 github_username:  atom-community
