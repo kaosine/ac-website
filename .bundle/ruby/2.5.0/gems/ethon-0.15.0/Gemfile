@@ -14,7 +14,7 @@ group :development, :test do
   gem "sinatra"
 
   if Gem.ruby_version < Gem::Version.new("2.0.0")
-    gem "json", "< 2"
+    gem "json", "< 3"
   else
     gem "json"
   end
