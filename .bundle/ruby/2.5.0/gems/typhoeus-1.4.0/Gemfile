@@ -27,6 +27,6 @@ group :development, :test do
 
   unless ENV["CI"]
     gem "guard-rspec", "~> 0.7"
-    gem 'rb-fsevent', '~> 0.9.1'
+    gem 'rb-fsevent', '~> 0.11.0'
   end
 end
