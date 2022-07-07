@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 if Gem.ruby_version < Gem::Version.new("1.9.3")
-  gem "rake", "< 11"
+  gem "rake", "< 13.0.7"
 else
   gem "rake"
 end
